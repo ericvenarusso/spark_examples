@@ -3,7 +3,7 @@ from pyspark.sql import functions as F
 
 
 spark = SparkSession.builder \
-                    .appName("Teste")
+                    .appName("Teste") \
                     .getOrCreate()
 
 rows = [
